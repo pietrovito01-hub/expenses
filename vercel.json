@@ -1,9 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/expenses.js": {
-      "runtime": "node"
-    }
+    "api/expenses.js": {} // Keep the file mapping, but remove the "runtime" property
   },
   "routes": [
     {
