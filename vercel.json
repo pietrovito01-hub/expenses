@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "api/expenses.js": {
+      "runtime": "node"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/expenses",
+      "dest": "/api/expenses.js",
+      "methods": ["GET", "POST"]
+    },
+    {
+      "src": "/.*",
+      "dest": "index.html"
+    }
+  ]
+}
