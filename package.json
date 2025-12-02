@@ -14,8 +14,8 @@
     "node"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "ISC",  <-- **THIS LINE MUST END WITH A COMMA!**
   "engines": {
-    "node": "20.x"  // <-- ADD THIS SECTION
+    "node": "20.x"
   }
 }
