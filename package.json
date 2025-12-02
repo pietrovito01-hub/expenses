@@ -14,5 +14,8 @@
     "node"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "20.x"  // <-- ADD THIS SECTION
+  }
 }
